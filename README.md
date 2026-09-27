@@ -11,6 +11,7 @@ Interface web (Vue.js 3) de la plateforme de gestion, personnalisation et exécu
 - 📄 **Upload de fichiers Word** avec aperçu et détection des variables `{{ }}`
 - ✍️ **Création manuelle** de prompts avec variables personnalisées
 - 📋 **Formulaire dynamique** — remplissage guidé des variables sans voir le prompt brut
+- 💬 **Chatbot intelligent intégré** — assistant conversationnel accessible directement depuis l'interface
 - 🤖 **Génération IA intégrée** — appel direct à Gemini et Groq depuis l'interface
 - 🌐 **Envoi vers IAs externes** — ChatGPT, Claude, Perplexity, Mistral, DeepSeek, Grok, Copilot
 - 📥 **Export multi-format** — Word (.docx), PDF, TXT, copie presse-papier
