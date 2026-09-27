@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>promptbcp-frontend</title>
+
+    <!-- n8n Chat CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
+    <!-- Ton application React -->
     <div id="app"></div>
+
+    <!-- Ton application React -->
     <script type="module" src="/src/main.js"></script>
+
+    <!-- n8n Chat -->
+    <script type="module">
+      import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+      createChat({
+        webhookUrl: 'http://localhost:5678/webhook/1967be4a-5a35-4c62-b010-3fab94b13828/chat'
+      });
+    </script>
   </body>
 </html>
+
